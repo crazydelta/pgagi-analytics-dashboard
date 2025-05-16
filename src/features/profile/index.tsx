@@ -5,7 +5,7 @@ const LOCAL_KEY = 'pgagi-user-profile'
 
 export default function ProfileFeature() {
   const defaultUser = {
-    name: 'Rajesh Kumar',
+    name: 'Rajesh',
     email: 'rajesh@example.com',
     role: 'Front-End Intern',
   }
