@@ -1,40 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# PGAGI Analytics Dashboard
 
-## Getting Started
+A powerful and responsive analytics dashboard built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**, designed to deliver real-time data insights across various sectors like weather, news, and finance. This application demonstrates integration with multiple APIs,  UI features  Redux-powered state management, performance optimizations.
 
-First, run the development server:
+---
 
-```bash
+## Project Overview
+
+The PGAGI Dashboard is a modern web application that aggregates and visualizes data from multiple APIs in a single, clean interface. Key features include:
+
+- Weather, News, and Finance widgets
+- Interactive and responsive UI
+- Dark/Light mode toggle
+- Redux Toolkit with RTK Query for API management
+- Lazy loading and performance optimization
+
+---
+
+## Technologies Used
+
+- **Next.js 14** (App Router)
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS**
+- **Redux Toolkit + RTK Query**
+- **Axios**
+- **React Hook Form**
+- **React Icons / Lucide Icons**
+- **Framer Motion**
+
+---
+
+## ⚙️ Installation Instructions
+
+1. **Clone the repository**
+
+
+git clone https://github.com/yourusername/pgagi-dashboard.git
+cd pgagi-dashboard
+
+2.Install dependencies
+
+npm install
+# or
+yarn install
+
+3.Set up environment variables
+
+Create a .env.local file in the root and add:
+NEXT_PUBLIC_WEATHER_API_KEY=YOUR_API_KEY
+NEWSAPI_KEY=YOUR_API_KEY
+FINNHUB_API_KEY=YOUR_API_KEY
+
+4.Start development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access it at http://localhost:3000
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+check out the functionalities here:
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+desktop view:
 
-## Learn More
+https://github.com/user-attachments/assets/e6680745-7186-4d5c-8387-cd00953c6b1c
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+mobile view:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+https://github.com/user-attachments/assets/051e8cde-faed-40aa-adc3-f02e85d14897
