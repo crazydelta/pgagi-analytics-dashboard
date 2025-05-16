@@ -30,28 +30,22 @@ The PGAGI Dashboard is a modern web application that aggregates and visualizes d
 
 ---
 
-## ⚙️ Installation Instructions
+##  Installation Instructions
 
-1. **Clone the repository**
-
-
-git clone https://github.com/yourusername/pgagi-dashboard.git
-cd pgagi-dashboard
-
-2.Install dependencies
+Install dependencies
 
 npm install
-# or
+    or
 yarn install
 
-3.Set up environment variables
+## Set up environment variables
 
-Create a .env.local file in the root and add:
-NEXT_PUBLIC_WEATHER_API_KEY=YOUR_API_KEY
-NEWSAPI_KEY=YOUR_API_KEY
-FINNHUB_API_KEY=YOUR_API_KEY
+Create a .env.local file in the root and add: <br /><br />
+NEXT_PUBLIC_WEATHER_API_KEY=YOUR_API_KEY <br />
+NEWSAPI_KEY=YOUR_API_KEY<br />
+FINNHUB_API_KEY=YOUR_API_KEY<br />
 
-4.Start development server
+## Start development server
 
 npm run dev
 
@@ -61,13 +55,12 @@ Access it at http://localhost:3000
 
 check out the functionalities here:
 
-desktop view:
+## desktop view:
 
-https://github.com/user-attachments/assets/e6680745-7186-4d5c-8387-cd00953c6b1c
-
-
+https://github.com/user-attachments/assets/c711c4f4-4477-4912-b565-9b1ba67944e7
 
 
-mobile view:
+## mobile view:
 
-https://github.com/user-attachments/assets/051e8cde-faed-40aa-adc3-f02e85d14897
+https://github.com/user-attachments/assets/87f8c065-af9c-4b45-a493-6df6bb890fc0
+
